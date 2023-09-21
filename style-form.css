@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+    background: #2980B9;  
+    background: -webkit-linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9);  
+    background: linear-gradient(to left, #FFFFFF, #6DD5FA, #2980B9); 
+    font-size: 20px;
+    }
+
+header ul {
+    display: flex;
+    list-style: none;
+    height: 80px;
+    justify-content: space-between;
+    padding: 20px;
+    align-items:center;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+header ul li > a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+header li {
+    font-size: 20px;
+}
+
+header div {
+    text-align: center;
+    padding: 30px;
+}
+
+header div:hover {
+    background: rgb(68, 66, 66);
+    text-align: center;
+    padding: 30px;    
+}
+
+.wrapper {
+    width: 100%;
+    margin:auto;
+    background: black ;
+}
+
+main h1 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+main div {
+    padding: 50px;
+}
+
+fieldset {
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 15px;
+}
+
+fieldset input {
+    margin: 5px;
+    margin-left: 50px;
+}
+
+fieldset p {
+    padding-left: 10px;
+}
+
+
+#boton {
+    text-align: center;
+}
+
+div button {
+    font-size: 20px;
+}
+
+footer{
+    background: #000000;  
+    background: -webkit-linear-gradient(to left, #434343, #000000);  
+    background: linear-gradient(to left, #434343, #000000); 
+    
+    text-align: center;
+    padding: 80px;
+}
+
+footer p {
+    color: white;
+    padding: 10px;
+}
+
+footer p a {
+    text-decoration: none;
+    color: rgb(36, 228, 164);
+}

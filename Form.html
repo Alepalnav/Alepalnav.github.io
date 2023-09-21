@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador</title>
+    <link href="./style-form.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="wrapper">
+            <ul id="menu">
+                <div>
+                    <li><a href="./Index.html">Contador</a></li>
+                </div>
+                <div>
+                    <li><a href="./Lista.html">Lista Compra</a></li>
+                </div>
+                <div>
+                    <li><a href="./Form.html">Formulario</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+    <h1>Formulario</h1>
+    <div>
+        <form action="https://iesjacaranda.es/lmsgi/resultado.php">
+            <fieldset>
+                <legend>¿Quién eres?</legend>
+                <p>Nombre</p>
+                <input type="text" id="nombre">
+                <p>Apellidos</p>
+                <input type="text">
+                <p>Correo electrónico</p>
+                <input type="text">
+                <p>Fecha de nacimiento</p>
+                <p>
+                    <select name="dia">
+                        <option>Dia</option>
+                    </select>
+                    <select name="mes">
+                        <option>Mes</option>
+                    </select>
+                    <select name="año">
+                        <option>Año</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>¿De dónde eres?</legend>
+                <p>Ciudad</p>
+                <input type="text">
+                <p>Código postal</p>
+                <input type="text">
+                <p>Pais</p>
+                <p>
+                    <select name="pais">
+                        <option>Pais</option>
+                    </select>
+                </p>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>¿Cómo quieres iniciar sesión?</legend>
+                <p>Nombre de usuario</p>
+                <input type="text">
+                <p>Contraseña</p>
+                <input type="text">
+                <p>Vuelve a escribir la contraseña</p>
+                <input type="text">
+            </fieldset>
+            <br>
+            <div id="boton">
+                <button type="submit">Crear cuenta</button>
+            </div>
+        </form>
+    </div>
+    </main>
+    <footer>
+        <p>Página creada por Alejandro Palma Navarro</p>
+        <p><a href="https://www.linkedin.com/in/alejandro-palma-navarro-9aa343229/">Contacta conmigo</a></p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

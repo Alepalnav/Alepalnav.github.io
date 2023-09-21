@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contador</title>
+    <link href="./style-lista.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header>
+        <nav class="wrapper">
+            <ul id="menu">
+                <div>
+                    <li><a href="./Index.html">Contador</a></li>
+                </div>
+                <div>
+                    <li><a href="./Lista.html">Lista Compra</a></li>
+                </div>
+                <div>
+                    <li><a href="./Form.html">Formulario</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Lista de la compra </h1>
+            <form>
+                <p>
+                </p>
+                <div class="form">
+                    <input id="text" type="text" placeholder="ej: huevos">
+                    <input id="texto" type="button" value="Añadir" onclick="creaFila()">
+                </div>
+            </form>
+            <div>
+                <div class="flex items-center flex-col">
+                    <div class="card">
+                        <table id="tabla">
+                            <tr>
+                                <td></td>
+                            </tr>
+                        </table>
+                    </div>  
+                </div>
+                <input id="eliminar" type="button" value="Eliminar" onclick="borrar()">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Página creada por Alejandro Palma Navarro</p>
+        <p><a href="https://www.linkedin.com/in/alejandro-palma-navarro-9aa343229/">Contacta conmigo</a></p>
+    </footer>
+    <script src="script-lista.js"></script>
+</body>
+</html>
